@@ -8,11 +8,13 @@ void average(int z, int x)
 	float v = (float)z / x;
 	cout << "Average of Dice Rolls " << v << endl;
 	cout << endl;
+	
 }
 void average(float sum, int u)
 {
 	float l = (float)sum / u;
 	cout << "Average of array " << l << endl;
+	cout << endl;
 }
 
 
@@ -41,9 +43,10 @@ int main()
 	cout << "The Average is " << u << endl;
 	cout << endl;
 	average(z, x);
-
+	
 	
 	//This part of the code deals with the array
+
 	int array[5] = { 0, 1, 2, 3, 5 };
 	float sum = 0;
 	u = 5;
@@ -59,11 +62,13 @@ int main()
 
 	cout << endl;
 	cout << "The sum of the values in the array is " << sum << endl;
+	cout << endl;
 	//The next 3 lines are to ensure correct use of function overloading
 	float s = (float)sum / u;
 	cout << "The Average for the numbers in the array is " << s << endl;
+	cout << endl;
 	average(sum, u);
-
+	
 
 	system("pause");
 	return 0;
